@@ -1,0 +1,36 @@
+{
+  "name": "letjs-cli",
+  "version": "1.0.1",
+  "description": "Letjs scaffold",
+  "bin": {
+    "letjs": "src/bin/index.js"
+  },
+  "main": "src/bin/index.js",
+  "scripts": {
+    "cli": "node src/bin/index.js",
+    "deploy": "npm publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "https://github.com/let-js/letjs-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.3.0",
+    "inquirer": "^8.2.5",
+    "ora": "^5.4.1",
+    "rimraf": "^3.0.2",
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@rollup/plugin-json": "^4.1.0",
+    "rollup": "^2.70.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}

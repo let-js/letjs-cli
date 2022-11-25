@@ -1,0 +1,24 @@
+{
+  "uiList": [
+    {
+      "label": "Naive UI",
+      "name": "naive-ui",
+      "plugins": [
+        {
+          "name": "naive-ui",
+          "version": "^2.26.1"
+        }
+      ]
+    },
+    {
+      "label": "Element Plus",
+      "name": "element-plus",
+      "plugins": [
+        {
+          "name": "element-plus",
+          "version": "^2.2.16"
+        }
+      ]
+    }
+  ]
+}

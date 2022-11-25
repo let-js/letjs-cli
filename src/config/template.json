@@ -1,0 +1,15 @@
+{
+  "templateUrl": "https://github.com/let-js/templates.git",
+  "templateList": [
+    {
+      "name": "letjs",
+      "type": "vue",
+      "description": "letjs Vue 模板"
+    },
+    {
+      "name": "letjs-ts",
+      "type": "vue",
+      "description": "letjs Vue TS 模板"
+    }
+  ]
+}
