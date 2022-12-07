@@ -1,5 +1,5 @@
 {
-  "name": "letjs-cli",
+  "name": "@let-js/letjs-cli",
   "version": "1.0.1",
   "description": "Letjs scaffold",
   "bin": {

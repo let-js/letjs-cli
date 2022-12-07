@@ -7,7 +7,7 @@ const { downloadDirectory } = require('../config/constance');
 
 // version
 program
-  .version(`letjs-cli ${require('../../package').version}`)
+  .version(`@let-js/letjs-cli ${require('../../package').version}`)
   .usage('<command> [options]');
 
 // 申明 init 命令，并声明两个参数 -c 和 -t。action调用init时需要执行的函数

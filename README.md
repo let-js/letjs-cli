@@ -1,11 +1,11 @@
-# letjs-cli
+# [letjs-cli](https://github.com/let-js/letjs-cli)
 
 ## 安装 letjs-cli
 
-letjs-cli 是一个简单的命令行工具，用于构建基于letjs的脚手架项目，支持选择项目模板，UI框架。
+letjs-cli 是一个简单的命令行工具，用于构建基于 letjs 的脚手架项目，支持选择项目模板，UI 框架。
 
 ```sh
-$ npm install -g letjs-cli
+$ npm install -g @let-js/letjs-cli
 ```
 
 ## letjs 命令介绍
@@ -30,25 +30,25 @@ Run letjs <command> --help for detailed usage of given command.
 
 ```sh
 # 初始化工程
-letjs init demp-app
+letjs init demo-app
 # 选择框架
 ? please select framework: (Use arrow keys)
-❯ vue 
+❯ vue
 # 选择 ts 还是 es 版本
 ? please select template: (Use arrow keys)
-❯ letjs 
-  letjs-ts 
+❯ letjs
+  letjs-ts
 # 选择 UI 库
 ? please select UI: (Use arrow keys)
-❯ naive-ui 
-  element-plus 
+❯ naive-ui
+  element-plus
 # 补充一些基本信息
-? what's your name? 
+? what's your name?
 ? please enter version? 1.0.0
 ? please enter description.
 
 # 进入创建工程目录，安装NPM依赖，然后启动demo页面
-cd demp-app
+cd demo-app
 npm install
 npm run dev
 
